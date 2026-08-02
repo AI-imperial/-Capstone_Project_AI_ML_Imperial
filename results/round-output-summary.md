@@ -1,0 +1,95 @@
+# Round Output Summary
+
+This file records the returned scalar outputs from submitted rounds and the best observed value so far for each function.
+
+## Returned Outputs
+
+### Round 2
+- Function 1: `0`
+- Function 2: `0.05425146114993222`
+- Function 3: `-0.11864687921451542`
+- Function 4: `-0.6875348991115433`
+- Function 5: `2237.8601903872827`
+- Function 6: `-0.3375310420057598`
+- Function 7: `1.5267620950307998`
+- Function 8: `9.9129127784969`
+
+### Round 3
+- Function 1: `-1.0073309448411379e-168`
+- Function 2: `0.6016089225145987`
+- Function 3: `-0.012551995025456043`
+- Function 4: `0.3180772817609534`
+- Function 5: `2332.9265179859894`
+- Function 6: `-0.5204285445817635`
+- Function 7: `1.9068685131410745`
+- Function 8: `9.9654927093175`
+
+### Round 4
+- Function 1: `0`
+- Function 2: `0.6021167939274252`
+- Function 3: `-0.09869225858790877`
+- Function 4: `0.37391515286271515`
+- Function 5: `2612.750534901791`
+- Function 6: `-0.4093458689872027`
+- Function 7: `1.4127793787023792`
+- Function 8: `9.9566416034055`
+
+### Round 5
+- Function 1: `3.2851739712852886e-166`
+- Function 2: `0.455700496562635`
+- Function 3: `-0.007191586817437852`
+- Function 4: `-0.3118688685348583`
+- Function 5: `2982.235584958162`
+- Function 6: `-0.43426283106519303`
+- Function 7: `1.7985022086573894`
+- Function 8: `9.95864`
+
+### Round 6
+- Function 1: `-0.007948680888890437`
+- Function 2: `0.6690984814241058`
+- Function 3: `-0.014157094495649936`
+- Function 4: `0.4826253352211869`
+- Function 5: `3631.5607743837386`
+- Function 6: `-0.45033245503578695`
+- Function 7: `1.896995530356442`
+- Function 8: `9.9602225`
+
+### Round 7
+- Function 1: `1.5263178611137443e-239`
+- Function 2: `0.40507474505259766`
+- Function 3: `-0.01465570152606744`
+- Function 4: `0.5101550040717915`
+- Function 5: `4424.845926402455`
+- Function 6: `-0.34486290394912944`
+- Function 7: `1.9091689560301506`
+- Function 8: `9.9533691856111`
+
+### Round 8
+- Function 1: `-4.308227050127463e-170`
+- Function 2: `0.6361589327290839`
+- Function 3: `-0.011489716385359078`
+- Function 4: `0.543132017668857`
+- Function 5: `4449.883448377691`
+- Function 6: `-0.39262369851440937`
+- Function 7: `1.9308086763772976`
+- Function 8: `9.9519007169059`
+
+### Round 9
+- Function 1: `1.0468733726285661e-195`
+- Function 2: `0.6540813971638444`
+- Function 3: `-0.012577402760365938`
+- Function 4: `0.5357002548770677`
+- Function 5: `4461.674159058348`
+- Function 6: `-0.5548262972495526`
+- Function 7: `1.9438801032749091`
+- Function 8: `9.9545693620454`
+
+## Best Observed Values So Far
+- Function 1: approximately `0`
+- Function 2: `0.6690984814241058`
+- Function 3: `-0.007191586817437852`
+- Function 4: `0.543132017668857`
+- Function 5: `4461.674159058348`
+- Function 6: `-0.3375310420057598`
+- Function 7: `1.9438801032749091`
+- Function 8: `9.9654927093175`
