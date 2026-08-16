@@ -33,8 +33,8 @@ The data set contains:
 
 ### Approximate size
 - starter data includes 10 to 40 initial observations per function, depending on the function
-- round submissions currently extend through round 10
-- returned outputs are currently documented through round 9, with round 10 queries prepared but not yet evaluated
+- round submissions currently extend through round 12
+- returned outputs are currently documented through round 11, with round 12 queries prepared but not yet evaluated
 
 ### Gaps and incompleteness
 - the search space is continuous, so the data set is only a sparse sample
@@ -82,10 +82,11 @@ The raw starter archive is preserved separately from later round notes and submi
 The data set is highly path-dependent: later observations depend on earlier decisions.
 
 ## Distribution
-At this stage, the data set is stored locally in the project workspace and is intended to be added to the public GitHub repository at the end of the capstone. Until then, it is effectively a working project artefact rather than a formally released benchmark.
+At this stage, the data set is stored in the local project workspace and mirrored in the public GitHub repository for the capstone. It is still a working project artefact rather than a formally frozen benchmark release, because new rounds continue to be added.
 
-Expected distribution method at project close:
+Current distribution method:
 - GitHub repository for the capstone
+- local project workspace used for round-by-round updates
 
 Terms of use:
 - starter data remains subject to the course/challenge conditions
@@ -99,4 +100,4 @@ The data set is maintained by the project author. Maintenance includes:
 - updating accompanying notes when strategy changes
 - preserving the starter archive and round history
 
-Versioning is currently informal and round-based. A fuller release structure, repository linking, and final maintenance notes will be added at the end of the capstone when the repository is finalised.
+Versioning is currently informal and round-based. Each new round adds a new query file and may also update the result summary and project documentation. A fuller release structure can still be added at the very end of the capstone if a final frozen version is needed.

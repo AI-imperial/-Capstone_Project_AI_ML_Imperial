@@ -3,7 +3,7 @@
 ## Overview
 Model name: BBO Capstone Iterative Surrogate Optimiser  
 Type: sequential black-box optimisation workflow  
-Version: working version through round 10 preparation
+Version: working version through round 12 preparation
 
 This is not a single fixed model. It is a round-based optimisation approach that combines surrogate modelling, manual trust-region logic, and evolving exploration-exploitation choices.
 
@@ -39,6 +39,12 @@ The strategy evolved across the rounds rather than staying tied to one method.
 - Continued to treat functions 1, 2, 3, 6, and 8 more cautiously when trends stalled or became noisy.
 - Used increasingly small exploit moves in regions showing consistent gains, especially for function 5.
 
+### Rounds 11-12
+- Continued trust-region style refinement in the strongest regions rather than broad resets.
+- Treated functions 5 and 7 as the clearest exploit cases because they kept showing stable gains.
+- Kept functions 1, 2, 3, 6, and 8 more cautious, using small local moves or renewed exploration when recent gains were weak.
+- Reinforced the idea that later-round optimisation is mostly about filtering noise, preserving robustness, and avoiding overreaction to one bad round.
+
 The decision rule throughout was simple in spirit:
 - if a function was improving steadily, refine locally
 - if it stalled or dropped, either broaden the search slightly or move back toward a stronger earlier region
@@ -51,9 +57,9 @@ The main performance measure is the returned scalar objective value for each fun
 - Function 2: `0.6690984814241058`
 - Function 3: `-0.007191586817437852`
 - Function 4: `0.543132017668857`
-- Function 5: `4461.674159058348`
+- Function 5: `4463.16253498912`
 - Function 6: `-0.3375310420057598`
-- Function 7: `1.9438801032749091`
+- Function 7: `1.94923271396076`
 - Function 8: `9.9654927093175`
 
 ### Performance interpretation
@@ -103,4 +109,4 @@ Adding more detail could improve this model card later, especially:
 - explicit trust-region sizes by function
 - formal record of surrogate hyperparameters
 
-For now, the current structure is sufficient for a working capstone because it explains the purpose, decision logic, results, assumptions, and main limitations without pretending the approach is more formalised than it actually is.
+For now, the current structure is sufficient for a working capstone because it explains the purpose, decision logic, results, assumptions, and main limitations without pretending the approach is more formalised than it actually is. The main requirement at this stage is that a reviewer can follow how the strategy changed from broad exploration into narrow local refinement over the later rounds.
