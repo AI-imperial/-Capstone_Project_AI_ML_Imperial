@@ -33,7 +33,7 @@ The starter observations are provided as `.npy` arrays inside the course archive
 - [src/README.md](C:/root/Imperial%20Course/src/README.md): reserved code area for reusable scripts
 
 ## Round History
-The repository currently includes query submissions through round 10:
+The repository currently includes query submissions through round 12:
 
 - [round01.txt](C:/root/Imperial%20Course/queries/round01.txt)
 - [round02.txt](C:/root/Imperial%20Course/queries/round02.txt)
@@ -45,8 +45,10 @@ The repository currently includes query submissions through round 10:
 - [round08.txt](C:/root/Imperial%20Course/queries/round08.txt)
 - [round09.txt](C:/root/Imperial%20Course/queries/round09.txt)
 - [round10.txt](C:/root/Imperial%20Course/queries/round10.txt)
+- [round11.txt](C:/root/Imperial%20Course/queries/round11.txt)
+- [round12.txt](C:/root/Imperial%20Course/queries/round12.txt)
 
-Returned outputs are documented through round 9 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
+Returned outputs are documented through round 11 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
 
 ## Strategy Evolution
 The optimisation approach evolved across the course instead of staying fixed:
@@ -65,10 +67,10 @@ Best observed outputs so far:
 - Function 2: `0.6690984814241058`
 - Function 3: `-0.007191586817437852`
 - Function 4: `0.543132017668857`
-- Function 5: `4461.674159058348`
+- Function 5: `4463.16253498912`
 - Function 6: `-0.3375310420057598`
-- Function 7: `1.9438801032749091`
+- Function 7: `1.94923271396076`
 - Function 8: `9.9654927093175`
 
 ## Status
-This is now a local git-ready project repository. A public GitHub publishing step can be done later once the capstone is fully complete and all required final materials are ready.
+This repository is maintained locally and updated round by round as the capstone progresses. The structure is intended to support later public GitHub publication, reproducibility, and final project reporting.

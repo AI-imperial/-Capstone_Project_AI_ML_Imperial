@@ -84,12 +84,32 @@ This file records the returned scalar outputs from submitted rounds and the best
 - Function 7: `1.9438801032749091`
 - Function 8: `9.9545693620454`
 
+### Round 10
+- Function 1: `-4.446157934131595e-33`
+- Function 2: `0.5203737501124428`
+- Function 3: `-0.012757515804567243`
+- Function 4: `0.49024325526439627`
+- Function 5: `4462.979201769813`
+- Function 6: `-0.48811295215480455`
+- Function 7: `1.94923271396076`
+- Function 8: `9.9554916661109`
+
+### Round 11
+- Function 1: `5.82125132146145e-43`
+- Function 2: `0.6005686014033276`
+- Function 3: `-0.01401970544708718`
+- Function 4: `0.5372826953312999`
+- Function 5: `4463.16253498912`
+- Function 6: `-0.3593876372432421`
+- Function 7: `1.9473753244832632`
+- Function 8: `9.9555460885125`
+
 ## Best Observed Values So Far
 - Function 1: approximately `0`
 - Function 2: `0.6690984814241058`
 - Function 3: `-0.007191586817437852`
 - Function 4: `0.543132017668857`
-- Function 5: `4461.674159058348`
+- Function 5: `4463.16253498912`
 - Function 6: `-0.3375310420057598`
-- Function 7: `1.9438801032749091`
+- Function 7: `1.94923271396076`
 - Function 8: `9.9654927093175`
