@@ -33,7 +33,7 @@ The starter observations are provided as `.npy` arrays inside the course archive
 - [src/README.md](C:/root/Imperial%20Course/src/README.md): reserved code area for reusable scripts
 
 ## Round History
-The repository currently includes query submissions through round 12:
+The repository currently includes query submissions through round 13:
 
 - [round01.txt](C:/root/Imperial%20Course/queries/round01.txt)
 - [round02.txt](C:/root/Imperial%20Course/queries/round02.txt)
@@ -47,8 +47,9 @@ The repository currently includes query submissions through round 12:
 - [round10.txt](C:/root/Imperial%20Course/queries/round10.txt)
 - [round11.txt](C:/root/Imperial%20Course/queries/round11.txt)
 - [round12.txt](C:/root/Imperial%20Course/queries/round12.txt)
+- [round13.txt](C:/root/Imperial%20Course/queries/round13.txt)
 
-Returned outputs are documented through round 11 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
+Returned outputs are documented through round 12 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
 
 ## Strategy Evolution
 The optimisation approach evolved across the course instead of staying fixed:
@@ -65,7 +66,7 @@ Best observed outputs so far:
 
 - Function 1: approximately `0`
 - Function 2: `0.6690984814241058`
-- Function 3: `-0.007191586817437852`
+- Function 3: `-0.0037854953032998894`
 - Function 4: `0.543132017668857`
 - Function 5: `4463.16253498912`
 - Function 6: `-0.3375310420057598`

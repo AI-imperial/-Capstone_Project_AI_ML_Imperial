@@ -33,8 +33,8 @@ The data set contains:
 
 ### Approximate size
 - starter data includes 10 to 40 initial observations per function, depending on the function
-- round submissions currently extend through round 12
-- returned outputs are currently documented through round 11, with round 12 queries prepared but not yet evaluated
+- round submissions currently extend through round 13
+- returned outputs are currently documented through round 12, with the final round query prepared but not yet evaluated
 
 ### Gaps and incompleteness
 - the search space is continuous, so the data set is only a sparse sample
