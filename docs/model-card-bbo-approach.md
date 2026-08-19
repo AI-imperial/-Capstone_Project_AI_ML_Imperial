@@ -3,7 +3,7 @@
 ## Overview
 Model name: BBO Capstone Iterative Surrogate Optimiser  
 Type: sequential black-box optimisation workflow  
-Version: working version through round 13 preparation
+Version: final round 13 record
 
 This is not a single fixed model. It is a round-based optimisation approach that combines surrogate modelling, manual trust-region logic, and evolving exploration-exploitation choices.
 
@@ -57,10 +57,10 @@ The main performance measure is the returned scalar objective value for each fun
 - Function 1: approximately `0` (no stable positive signal found)
 - Function 2: `0.6690984814241058`
 - Function 3: `-0.0037854953032998894`
-- Function 4: `0.543132017668857`
-- Function 5: `4463.16253498912`
+- Function 4: `0.5468856259254093`
+- Function 5: `4463.27809831969`
 - Function 6: `-0.3375310420057598`
-- Function 7: `1.94923271396076`
+- Function 7: `1.9548343233980288`
 - Function 8: `9.9654927093175`
 
 ### Performance interpretation
@@ -110,4 +110,4 @@ Adding more detail could improve this model card later, especially:
 - explicit trust-region sizes by function
 - formal record of surrogate hyperparameters
 
-For now, the current structure is sufficient for a working capstone because it explains the purpose, decision logic, results, assumptions, and main limitations without pretending the approach is more formalised than it actually is. The main requirement at this stage is that a reviewer can follow how the strategy changed from broad exploration into narrow local refinement over the later rounds.
+For the completed capstone, the current structure is sufficient because it explains the purpose, decision logic, results, assumptions, and main limitations without pretending the approach is more formalised than it actually is. A reviewer can follow how the strategy changed from broad exploration into narrow local refinement over the later rounds.

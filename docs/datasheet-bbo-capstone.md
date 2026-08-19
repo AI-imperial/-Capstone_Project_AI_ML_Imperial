@@ -34,7 +34,7 @@ The data set contains:
 ### Approximate size
 - starter data includes 10 to 40 initial observations per function, depending on the function
 - round submissions currently extend through round 13
-- returned outputs are currently documented through round 12, with the final round query prepared but not yet evaluated
+- returned outputs are now documented through round 13
 
 ### Gaps and incompleteness
 - the search space is continuous, so the data set is only a sparse sample
@@ -82,7 +82,7 @@ The raw starter archive is preserved separately from later round notes and submi
 The data set is highly path-dependent: later observations depend on earlier decisions.
 
 ## Distribution
-At this stage, the data set is stored in the local project workspace and mirrored in the public GitHub repository for the capstone. It is still a working project artefact rather than a formally frozen benchmark release, because new rounds continue to be added.
+At this stage, the data set is stored in the local project workspace and mirrored in the public GitHub repository for the capstone. The sequential collection phase is complete through round 13, although the repository can still receive documentation clean-up or final presentation updates.
 
 Current distribution method:
 - GitHub repository for the capstone
@@ -100,4 +100,4 @@ The data set is maintained by the project author. Maintenance includes:
 - updating accompanying notes when strategy changes
 - preserving the starter archive and round history
 
-Versioning is currently informal and round-based. Each new round adds a new query file and may also update the result summary and project documentation. A fuller release structure can still be added at the very end of the capstone if a final frozen version is needed.
+Versioning is currently informal and round-based. Each round added a new query file and updated the result summary and project documentation. The round-based structure now acts as the final frozen optimisation history for the completed capstone.

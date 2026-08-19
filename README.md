@@ -49,7 +49,7 @@ The repository currently includes query submissions through round 13:
 - [round12.txt](C:/root/Imperial%20Course/queries/round12.txt)
 - [round13.txt](C:/root/Imperial%20Course/queries/round13.txt)
 
-Returned outputs are documented through round 12 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
+Returned outputs are documented through round 13 in [round-output-summary.md](C:/root/Imperial%20Course/results/round-output-summary.md).
 
 ## Strategy Evolution
 The optimisation approach evolved across the course instead of staying fixed:
@@ -67,11 +67,11 @@ Best observed outputs so far:
 - Function 1: approximately `0`
 - Function 2: `0.6690984814241058`
 - Function 3: `-0.0037854953032998894`
-- Function 4: `0.543132017668857`
-- Function 5: `4463.16253498912`
+- Function 4: `0.5468856259254093`
+- Function 5: `4463.27809831969`
 - Function 6: `-0.3375310420057598`
-- Function 7: `1.94923271396076`
+- Function 7: `1.9548343233980288`
 - Function 8: `9.9654927093175`
 
 ## Status
-This repository is maintained locally and updated round by round as the capstone progresses. The structure is intended to support later public GitHub publication, reproducibility, and final project reporting.
+The capstone rounds are now complete through round 13. This repository serves as the final working record of the query history, returned outputs, and supporting documentation for reproducibility and final project reporting.
